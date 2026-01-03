@@ -58,7 +58,8 @@ int main()
     } while(choice== 'y' || choice== 'Y' ); // do-while Loop continues if user says yes
   // for closing the file after writing
     out.close();
+  // Displaying the final total bill
     cout<<"Your total amount to pay is:Rs "<<totalbill<<endl;
     cout<<"Thank you for ordering"<<endl;
-    return 0;
+    return 0;  // End of program
 }
