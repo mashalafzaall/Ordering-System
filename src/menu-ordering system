@@ -27,6 +27,7 @@ int main()
     cin>>itemnum;
     cout<<"Enter the quantity of item you ordered: ";
     cin>>quantity;
+   // Calculate bill based on selected item of customer
     if (itemnum==1){
         bill=(500*quantity);
     }
@@ -46,6 +47,7 @@ int main()
         cout<<"invalid item number";
         return 0;
     }
+   // Adding current bill to total bill
     totalbill = totalbill+bill;
     out<<" "<<customeruser<<" "<<customerpass<<" "<<itemnum<<" "<<quantity<<" "<<" "<<bill<<endl;
     cout<<"Your one item bill is:Rs "<<bill<<endl;
