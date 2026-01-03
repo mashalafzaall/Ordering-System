@@ -14,6 +14,7 @@ int main() {
     ofstream file("customer.txt",ios::app);
     file<<customeruser<<""<<customerpass<<""<<endl;
     file.close();
+//Display success message
     cout<<"Registration successful"<<endl;
     return 0;
 }
