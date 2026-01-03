@@ -50,8 +50,10 @@ int main()
    // Adding current bill to total bill
     totalbill = totalbill+bill;
     out<<" "<<customeruser<<" "<<customerpass<<" "<<itemnum<<" "<<quantity<<" "<<" "<<bill<<endl;
+  // Displaying bill for current order
     cout<<"Your one item bill is:Rs "<<bill<<endl;
     cout<<"Do you want to order another item(y/n): ";
+  // Asking user if they want to order any more items
     cin>>choice;
     } while(choice== 'y' || choice== 'Y' );
     out.close();
