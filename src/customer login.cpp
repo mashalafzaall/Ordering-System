@@ -8,7 +8,7 @@ int main(){
     string cutomeruser;// Variable to store customer username
 
     while(in>>cutomeruser>>customerpass>>itemnum>>quantity>>bill){
-    cout<<" "<<cutomeruser<<" "<<customerpass<<" "<<itemnum<<" "<<quantity<<" "<<bill<<endl;
+    cout<<" "<<cutomeruser<<" "<<customerpass<<" "<<itemnum<<" "<<quantity<<" "<<bill<<endl; // Read data from file until end of file
     }
    in.close();
     return 0;
