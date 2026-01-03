@@ -93,7 +93,8 @@ int CustomerRegistrationAndOrderingSystem(){
     cout<<"Your total amount to pay is:Rs "<<totalbill<<endl;
     cout<<"Thank you for ordering"<<endl;
     return 0;
-}          
+} 
+// Unified main integrating customer and employee modules
 int main(){
     int choice;
     cout<<"Ordering system"<<endl;
