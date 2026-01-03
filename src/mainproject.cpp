@@ -37,6 +37,7 @@ if (found) {
     }
     return 0;
 }
+//Customer registration integrated with menu based ordering system
 int CustomerRegistrationAndOrderingSystem(){
      int customerpass;
     string customeruser;
