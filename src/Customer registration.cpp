@@ -10,6 +10,7 @@ int main() {
     //Taking password from user
     cout<<"Enter your password:";
     cin>>customerpass;
+//Opening file in append mode
     ofstream file("customer.txt",ios::app);
     file<<customeruser<<""<<customerpass<<""<<endl;
     file.close();
