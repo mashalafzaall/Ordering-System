@@ -13,6 +13,7 @@ if(!file){
         return 0;
     }
     cout<<"EMPLOYEE LOGIN"<<endl;
+  // Take username and password input from the user
     cout<<"Enter your username: ";
     cin>>inputuser;
     cout<<"Enter your password: ";
